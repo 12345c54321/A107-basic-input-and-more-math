@@ -15,3 +15,9 @@ Enter a length in centimeters: 32
 32 centimeters is 1 feet and 1 inches
 ```
 """
+import math
+cm = int(input("centimeter: "))
+totalinch = cm/2.54
+feet = math.floor(totalinch/12)
+inch = round(totalinch - (12*feet))
+print( str(cm) + " cm equals " + str(feet) + " feet and " + str(inch) + " inches")

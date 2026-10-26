@@ -26,5 +26,16 @@ Enter the length of side c: 12
 
 Your half perimeter is 14.5
 The area of your triangle is 29.342
+*(s-a)*(s-b)*(s-c)
 '''
-
+import math
+a = int(input("a:"))
+b = int(input("b:"))
+c = int(input("c:"))
+s = (a+b+c)/2
+A = math.sqrt(s*(s-a)*(s-b)*(s-c))
+print(a)
+print(b)
+print(c)
+print(s)
+print(A)
