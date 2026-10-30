@@ -34,8 +34,8 @@ b = int(input("b:"))
 c = int(input("c:"))
 s = (a+b+c)/2
 A = math.sqrt(s*(s-a)*(s-b)*(s-c))
-print(a)
+'''print(a)
 print(b)
 print(c)
-print(s)
+print(s)'''
 print(A)
