@@ -21,3 +21,14 @@ Enter your income: 125000
 Your federal income tax is: 24411.7
 
 '''
+income = int(input("Enter your brutto income: "))
+if income < 49020:
+    print("You pay " + str(income*0.15) + "$ of taxes")
+elif 49020 < income < 98040:
+    print("You pay " + str(income*0.205) + "$ of taxes")
+elif 98040 < income < 151978:
+    print("You pay " + str(income*0.26) + "$ of taxes") 
+elif 151978 < income < 216511:
+    print("You pay " + str(income*0.29) + "$ of taxes") 
+elif income > 216511:
+    print("You pay " + str(income*0.33) + "$ of taxes") 
